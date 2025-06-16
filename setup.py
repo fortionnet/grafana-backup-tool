@@ -7,7 +7,7 @@ version = PKG_VERSION
 requires = [
     'requests',
     'docopt',
-    'boto3',
+    'boto3==1.35.99',
     'azure-storage-blob',
     'google-cloud-storage',
     'influxdb',
